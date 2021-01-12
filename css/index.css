@@ -172,7 +172,8 @@ summary:focus {
         flex-direction: column;
     }
 
-    .job-dates {
+    .job-dates, .job-loc {
         text-align: left;
+        width: 100%;
     }
 }
