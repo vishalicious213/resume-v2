@@ -73,6 +73,34 @@ body {
             font-weight: bold;
         }
 
+        .proj-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 1rem 0 0 0;
+        }
+
+            button {
+                color: white;
+                background: #073763;
+                font-weight: bold;
+                width: calc(10rem + 1vw);
+                padding: .5rem;
+                text-align: center;
+                border: none;
+                border-radius: .25rem;
+                outline: 1px solid white;
+                outline-offset: -5px;
+            }
+
+            button:hover {
+                background: #083E70;
+                cursor: pointer;
+            }
+
+            .proj-site {
+                text-decoration: none;
+            }
+
     .job-title {
         font-weight: bold;
     }
