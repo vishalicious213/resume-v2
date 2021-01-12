@@ -100,3 +100,12 @@ h2 {
 hr {
     color: gainsboro;
 }
+
+summary:hover {
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+summary:focus {
+    outline: none;
+}
