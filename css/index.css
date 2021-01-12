@@ -211,6 +211,10 @@ summary:focus {
         font-size: calc(.7rem + 1vw);
     }
 
+    .spacer {
+        margin-top: .75rem;
+    }
+
     .job-info {
         flex-direction: column;
     }
