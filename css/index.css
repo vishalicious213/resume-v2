@@ -1,11 +1,11 @@
 body {
     font-family: 'Lato', sans-serif;
+    font-size: calc(.35rem + 1vw);
 }
 
 #main {
-    margin: 0 auto;
+    margin: 0 1rem;
     display: flex;
-    max-width: 900px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -76,6 +76,10 @@ body {
     .job-title {
         font-weight: bold;
     }
+    
+        .job-resp {
+            margin-top: 0;
+        }
 
     .job-info {
         display: flex;
@@ -83,22 +87,18 @@ body {
         margin-bottom: 1rem;
     }
 
-    .job-resp {
-        margin-top: 0;
-    }
-
-    .job-dates {
-        text-align: right;
-        width: 40%;
-    }
+        .job-dates {
+            text-align: right;
+            width: 40%;
+        }
 
 h1 {
-    font-size: 2rem;
+    font-size: calc(2rem + 1vw);
     margin-bottom: .25rem;
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: calc(1.1rem + 1vw);
     margin-top: 3rem;
 }
 
@@ -123,13 +123,26 @@ summary:focus {
 /* MOBILE */
 
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: calc(.8rem + 1vw);
+    }
+
     #main {
         flex-direction: column;
         width: 100%;
-        max-width: 767px;
+        margin: 0;
+        box-shadow: none;
     }
 
     #right, #left {
         width: auto;
+    }
+
+    .job-info {
+        flex-direction: column;
+    }
+
+    .job-dates {
+        text-align: left;
     }
 }
