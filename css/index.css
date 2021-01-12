@@ -113,3 +113,8 @@ summary:hover {
 summary:focus {
     outline: none;
 }
+
+.summary-1:hover {
+    background: #083E70;
+    cursor: pointer;
+}
