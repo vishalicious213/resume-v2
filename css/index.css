@@ -54,6 +54,17 @@ body {
     .job-info {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .job-loc {
+        outline: 1px solid orange;
+    }
+
+    .job-dates {
+        outline: 1px solid red;
+        text-align: right;
+        width: 40%;
     }
 
 h1 {
