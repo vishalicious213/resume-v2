@@ -23,6 +23,16 @@ body {
         align-items: center;
     }
 
+        #pic {
+            width: 50%;
+            margin-top: 1rem;
+        }
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+
         .sites {
             color: white;
         }
