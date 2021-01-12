@@ -77,6 +77,8 @@ body {
             display: flex;
             justify-content: space-around;
             margin: 1rem 0 0 0;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #073763;
         }
 
             button {
