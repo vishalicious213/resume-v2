@@ -3,7 +3,6 @@ body {
 }
 
 #main {
-    /* outline: 1px solid red; */
     margin: 0 auto;
     display: flex;
     max-width: 900px;
@@ -53,6 +52,13 @@ body {
             text-align: center;
         }
 
+    #techlist {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
 #right {
     width: 60%;
     padding: 1rem 1.5rem 3rem 1.5rem;
@@ -77,16 +83,11 @@ body {
         margin-bottom: 1rem;
     }
 
-    .job-loc {
-        /* outline: 1px solid orange; */
-    }
-
     .job-resp {
         margin-top: 0;
     }
 
     .job-dates {
-        /* outline: 1px solid red; */
         text-align: right;
         width: 40%;
     }
