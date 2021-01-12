@@ -22,6 +22,10 @@ body {
         align-items: center;
     }
 
+        .sites {
+            color: white;
+        }
+
     #contact {
         margin-top: 3rem;
         display: flex;
@@ -40,7 +44,17 @@ body {
 
 #right {
     width: 60%;
+    padding: 1rem 1.5rem;
 }
+
+    .job-title {
+        font-weight: bold;
+    }
+
+    .job-info {
+        display: flex;
+        justify-content: space-between;
+    }
 
 h1 {
     font-size: 2rem;
