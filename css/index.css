@@ -119,3 +119,17 @@ summary:focus {
     background: #083E70;
     cursor: pointer;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 767px) {
+    #main {
+        flex-direction: column;
+        width: 100%;
+        max-width: 767px;
+    }
+
+    #right, #left {
+        width: auto;
+    }
+}
