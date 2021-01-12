@@ -123,7 +123,6 @@ body {
         }
 
 .title {
-    /* outline: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -138,6 +137,7 @@ h1 {
 h2 {
     font-size: calc(1.1rem + 1vw);
     margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .prompt {
@@ -152,6 +152,10 @@ h2 {
 
 hr {
     color: #c6c6c6;
+}
+
+.spacer {
+    margin-top: 1.7rem;
 }
 
 summary:hover {
