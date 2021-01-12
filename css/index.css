@@ -203,6 +203,10 @@ summary:focus {
         flex-direction: row;
     }
 
+    .prompt, .prompt-blue {
+        font-size: calc(.7rem + 1vw);
+    }
+
     .job-info {
         flex-direction: column;
     }
