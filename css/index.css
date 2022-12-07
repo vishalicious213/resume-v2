@@ -111,6 +111,10 @@ body {
             margin-top: 0;
         }
 
+        .skills {
+            margin-top: 1rem;
+        }
+
     .job-info {
         display: flex;
         justify-content: space-between;
